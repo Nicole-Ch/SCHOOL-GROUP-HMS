@@ -1,0 +1,22 @@
+.section-title{
+    margin-top: 60px;
+}
+
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-left: auto;
+    background-color: rgb(57, 9, 102);
+    
+
+}
+.section-title p{
+    max-width: 500px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+

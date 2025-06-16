@@ -1,0 +1,76 @@
+
+    body {
+      background-color: #f8f9fa;
+    }
+
+
+    
+    /* Sidebar styles */
+    .sidebar {
+      width: 250px;
+      background-color: #343a40;
+      color: #fff;
+      min-height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 20px;
+    }
+    .sidebar .profile {
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid #495057;
+      margin-bottom: 20px;
+    }
+    .sidebar .profile img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .sidebar .nav-link {
+      color: #adb5bd;
+      padding: 10px 20px;
+      display: block;
+    }
+    .sidebar .nav-link:hover,
+    .sidebar .nav-link.active {
+      background-color: #495057;
+      color: #fff;
+      text-decoration: none;
+    }
+    /* Main content styles */
+    .main-content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+    .dashboard-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .card-metric {
+      margin-bottom: 20px;
+    }
+    
+    .table-responsive {
+      margin-top: 30px;
+    }
+
+
+    /*CREATE TASK MAIN*/
+    .main{
+        margin-left: 195px;
+    }
+    /* Responsive adjustments for mobile screens */
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        position: relative;
+      }
+      .main-content {
+        margin-left: 0;
+      }
+    }
